@@ -1,4 +1,22 @@
-h3 {
-    font-size: 30px;
-    color: bisque;
+@import "../../App.scss";
+
+.navbar-wrap {
+    background-color: $bg-color;
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 28px;
+
+        .navbar-list {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            li {
+                padding: 12px 24px;
+            }
+        }
+    }
 }

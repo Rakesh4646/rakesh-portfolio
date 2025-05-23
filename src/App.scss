@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 ul,
@@ -29,8 +32,8 @@ $primary-color: #A53DFF;
 $secondary-color: #EDD8FF;
 $text-color: #132238;
 $text-color2: #87909D;
-// $bg-color: #FFFFFF;
-$bg-color: #e8e8e8;
+$bg-color: #FFFFFF;
+// $bg-color: #e8e8e8;
 
 .container {
   width: 100%;

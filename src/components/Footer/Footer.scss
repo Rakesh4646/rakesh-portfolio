@@ -31,11 +31,13 @@
 
             li {
                 margin-bottom: 0.5rem;
+                display: flex;
+                align-items: center;
+                gap: 10px;
             }
 
             a {
                 color: #ccc;
-                text-decoration: none;
 
                 &:hover {
                     color: #fff;
@@ -43,19 +45,6 @@
             }
         }
 
-        .toggle-theme {
-            margin-top: 1rem;
-            padding: 0.5rem 1rem;
-            background: #222;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-
-            &:hover {
-                background: #444;
-            }
-        }
     }
 
     .footer-bottom {

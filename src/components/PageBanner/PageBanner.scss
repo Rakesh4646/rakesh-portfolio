@@ -1,0 +1,24 @@
+.page-banner {
+    background: linear-gradient(90deg, rgba(238, 174, 202, 0.35) 40%, rgba(148, 187, 233, 0.35) 60%);
+    color: #000;
+    padding: 80px 0;
+    text-align: center;
+    position: relative;
+
+    .page-name {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .breadcrumb {
+        font-size: 1.2rem;
+        font-weight: 500;
+
+        a {
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+    }
+}

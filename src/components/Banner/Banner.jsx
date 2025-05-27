@@ -15,7 +15,7 @@ function Banner() {
                         <button>Say Hello!</button>
                     </div>
                     <div className="banner-right">
-                        <img src={bannerImage} alt="banner image" />
+                        <img src={bannerImage} alt="banner-image" />
                     </div>
                 </div>
             </section>

@@ -1,5 +1,6 @@
 import Banner from '../components/Banner';
 import AboutSection from '../components/AboutSection';
+import SkillsSection from '../components/SkillsSection';
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <Banner />
       <div>Home</div>
       <AboutSection />
+      <SkillsSection />
     </>
   )
 }

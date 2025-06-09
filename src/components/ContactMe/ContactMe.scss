@@ -1,0 +1,64 @@
+@import "../../App.scss";
+
+.contact-me-wrap {
+    padding: 4rem 1.5rem;
+    background-color: #f8f8f8;
+
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        font-weight: 700;
+        color: #111;
+        text-decoration: underline;
+    }
+
+    .contact-cards {
+        text-align: center;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+
+            li {
+                padding: 1.5rem 3rem;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+                border-radius: 1rem;
+                width: 100%;
+                transition: transform 0.3s ease;
+                cursor: pointer;
+
+                &:hover {
+                    border-bottom: 2px solid $primary-color;
+                    transform: translateY(-5px);
+                    box-shadow: 0 1rem 3rem rgba(31, 45, 61, .125) !important;
+                }
+
+                span {
+                    color: $primary-color;
+                    margin-bottom: 1rem;
+
+                    svg {
+                        font-size: 30px;
+                    }
+                }
+
+                .contact-name {
+                    color: #111;
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    margin: 16px 0 5px 0;
+                }
+
+                .contact-data {
+                    color: #666;
+                    font-size: 1rem;
+                }
+            }
+
+        }
+    }
+}

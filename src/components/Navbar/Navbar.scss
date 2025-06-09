@@ -23,8 +23,10 @@
                 font-size: 1.125rem;
                 color: #111;
 
-                &:hover {
-                    opacity: 0.6;
+                a {
+                    &:hover {
+                        opacity: 0.6;
+                    }
                 }
             }
         }

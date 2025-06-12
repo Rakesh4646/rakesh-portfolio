@@ -28,19 +28,19 @@ function Footer() {
                                 <span>
                                     <FaEnvelope />
                                 </span>
-                                <a href="mailto:rakeshgupta274021@gmail.com" target='_blank'>rakeshgupta274021@gmail.com</a>
+                                <a href="mailto:rakeshgupta274021@gmail.com" target='_blank' rel="noreferrer">rakeshgupta274021@gmail.com</a>
                             </li>
                             <li>
                                 <span>
                                     <FaMobileScreen />
                                 </span>
-                                <a href="tel:+918879479679" target='_blank'>+91 88794 79679</a>
+                                <a href="tel:+918879479679" target='_blank' rel="noreferrer">+91 88794 79679</a>
                             </li>
                             <li>
                                 <span>
                                     <FaMapMarkerAlt />
                                 </span>
-                                <a href="https://maps.app.goo.gl/SpY1VBeLT54rrxNcA" target='_blank'>Andheri East, Mumbai-93</a>
+                                <a href="https://maps.app.goo.gl/SpY1VBeLT54rrxNcA" target='_blank' rel="noreferrer">Andheri East, Mumbai-93</a>
                             </li>
                         </ul>
                     </div>

@@ -1,4 +1,6 @@
-import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
+import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import emailjs from 'emailjs-com';
+import { useRef } from 'react';
 import './ContactForm.scss'
 
 function ContactForm() {
